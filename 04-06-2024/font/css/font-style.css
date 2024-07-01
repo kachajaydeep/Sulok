@@ -1,0 +1,22 @@
+.p1 {
+    font-style: normal;
+}
+.p2{
+    font-style: italic;
+}
+.p3{
+    font-style: oblique;
+}
+
+.p4{
+    font-weight: normal;
+}
+.p5{
+    font-weight: bold;
+}
+.p6{
+    font-variant: normal;
+}
+.p7{
+    font-variant: small-caps;
+}

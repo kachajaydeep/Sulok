@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 10px;
+    background-color: #f1f1f1;
+}
+
+.header{
+    background-color: gainsboro;
+    text-align: center;
+    padding: 20px;
+}
+
+.topnav {
+    background-color: violet;
+    overflow: hidden;
+}
+
+.topnav a{
+    color: purple;
+    padding:16px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    float: left;
+}
+
+.leftcolumn {
+    float: left;
+    width: 75%;
+}
+
+.rightcolumn{
+    float: left;
+    width: 25%;
+    padding-left:20px ;
+    margin: 0;
+}
+
+.fakeimage{
+    width: 100%;
+    background-color: grey;
+    padding: 20px;
+}
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width:800px) {
+    .leftcolumn,.rightcolumn {
+        width: 100%;
+        padding: 0;
+    }
+
+}
+
+@media screen and (max-width:400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}
