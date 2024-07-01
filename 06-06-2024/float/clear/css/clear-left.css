@@ -1,0 +1,48 @@
+
+
+
+img {
+    float: right;
+}
+
+.cards{
+    border: 2px solid red;
+    overflow: auto;
+
+}
+
+.cards2:nth-child(3){
+    clear: right;
+    border: 2px solid greenyellow;
+}
+
+.cards1{
+    border: 2px solid pink;
+}
+
+.cards3 {
+    border:2px solid black;
+}
+
+
+
+
+.para{
+    border: 2px solid red;
+    overflow: auto;
+    margin: 20px 0  0 0;
+}
+
+.para2{
+
+    border: 2px solid greenyellow;
+}
+
+.para1{
+    border: 2px solid pink;
+}
+
+.para3 {
+    border:2px solid black;
+}
+

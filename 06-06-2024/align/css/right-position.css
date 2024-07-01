@@ -1,0 +1,16 @@
+img {
+
+}
+h1{
+    text-align: center;
+    color: white;
+    background-color: black;
+    border: 2px solid red;
+    text-shadow: 3px 3px 3px pink;
+}
+.parent{
+    border: 2px solid green;
+    position: absolute;
+    width: 50%;
+    right: 0px;
+}

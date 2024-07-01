@@ -1,0 +1,24 @@
+p.ex1{
+    outline-style: ridge;
+    outline-color: chartreuse;
+    outline-width: thick;
+    
+}
+
+p.ex2{
+outline-width: thick;
+outline-style: inset;
+outline-color: aquamarine;
+
+}
+p.ex3{
+    outline-style: outset;
+    outline-color: tomato;
+    outline-width: medium;
+}
+
+p.ex4{
+    outline-style: outset;
+    outline-color: tomato;
+    outline-width: thick;
+}

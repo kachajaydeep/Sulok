@@ -1,0 +1,21 @@
+input[type=text] {
+    width: 100%;
+    color: white;
+    padding: 12px 0;
+    margin:  8px 0;
+    background-color: green;
+    box-sizing: border-box;
+}
+
+input[type=password] {
+    color: white;
+    padding: 12px 0;
+}
+
+input[type=submit] {
+    color: black;
+    margin: 8px 0;
+    width: 100%;
+    padding: 10px 0;
+    box-sizing: border-box;
+}
