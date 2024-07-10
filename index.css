@@ -1,47 +1,60 @@
-body{
-    margin: 0;
-    background-image: url('./background_image.png');
+body,
+html {
+    height: 100%;
 }
+
+.image {
+    height: 100%;
+    width: 100%;
+    background-image: url('./bg_Img.jpg');
+    background-repeat: repeat-x;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
 summary {
     background-color: antiquewhite;
     margin: 5px;
-
 }
 
-div{
+.display {
     display: flex;
     margin: 20px;
     justify-content: space-between;
 
 }
+
 @media screen and (max-width:997px) {
-    div{
+    .display {
         display: grid;
     }
 
-    a{
+    a {
         border-bottom: 1px solid black;
     }
 }
 
-a:link ,a:visited {
+a:link,
+a:visited {
     background-color: yellow;
     padding: 10px;
     text-decoration: none;
     border-radius: 14px 0;
-    
+
 }
-a:hover, a:active{
+
+a:hover,
+a:active {
     background-color: aqua;
 }
 
-h1 {
-font-family:serif;
-padding: 20px;
-text-align: center; 
-text-transform: uppercase;
-background-color: black;
-color: white;
-text-shadow: 2px 3px 4px rgb(8, 159, 247);
-text-decoration: underline;
+header {
+    font-family: serif;
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: purple;
+    color: white;
+    text-shadow: 2px 3px 4px rgb(8, 159, 247);
+    text-decoration: underline;
 }
