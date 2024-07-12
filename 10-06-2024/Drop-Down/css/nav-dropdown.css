@@ -1,0 +1,11 @@
+ul {
+list-style-type: none;
+}
+li {
+float: left;
+padding: 15px;
+}
+
+li.a ,.dropbtn {
+    display: block;
+}

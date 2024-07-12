@@ -1,0 +1,10 @@
+img:hover {
+opacity: 0.5;
+}
+
+img {
+    width: 400px;
+    height: 300px ;
+    display: inline-block;
+    padding: 20px;
+}

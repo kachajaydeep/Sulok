@@ -1,0 +1,10 @@
+[title~="flower"]{
+   border: 5px solid aqua;
+}
+
+[title~="klematis"]{
+    border: 5px solid blue;
+}
+[title~="tree"] {
+    border: 5px solid chartreuse;
+}
