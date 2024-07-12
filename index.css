@@ -4,11 +4,11 @@ html {
 }
 
 .image {
-    height: 100%;
+    height: auto;
     width: 100%;
     background-image: url('./bg_Img.jpg');
-    background-repeat: repeat-x;
-    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
 }
 
@@ -21,7 +21,7 @@ summary {
     display: flex;
     margin: 20px;
     justify-content: space-between;
-
+    overflow-x: auto;
 }
 
 @media screen and (max-width:997px) {
@@ -53,8 +53,9 @@ header {
     padding: 20px;
     text-align: center;
     text-transform: uppercase;
-    background-color: purple;
+    background-color: rgba(150, 20, 30,0.3);
     color: white;
-    text-shadow: 2px 3px 4px rgb(8, 159, 247);
+    text-shadow: 2px 3px 4px rgb(115,200,200);
     text-decoration: underline;
+    font-size: 2vw;
 }
