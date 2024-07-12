@@ -1,0 +1,11 @@
+h1:empty{
+    width: 150px;
+    height: 30px;
+    background-color: aqua;
+}
+
+p:empty{
+    width: 150px;
+    height: 30px;
+    background-color: greenyellow;
+}
