@@ -1,0 +1,9 @@
+h1.one{
+    word-spacing: 10px;
+}
+p.two{
+    word-spacing: -2px;
+}
+p.three{
+    word-spacing: -3px;
+}
