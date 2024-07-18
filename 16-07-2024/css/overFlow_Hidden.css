@@ -1,0 +1,7 @@
+div{
+    height: 65px;
+    width: 200px;
+    background-color: #ddd;
+    border: 1px solid black;
+    overflow: hidden;
+}

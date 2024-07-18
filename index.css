@@ -1,20 +1,23 @@
-body,
 html {
-    height: 100%;
-}
-
-.image {
-    height: auto;
-    width: 100%;
     background-image: url('./bg_Img.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-position: center center;
     background-size: cover;
 }
-
+body{
+    margin: 0;
+}
 summary {
-    background-color: antiquewhite;
+    background-color: rgba(206, 193, 211, 0.7);
     margin: 5px;
+    display: grid;
+    grid-template-columns: 33%;
+    width: 29%;    
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
 }
 
 .display {
@@ -49,13 +52,15 @@ a:active {
 }
 
 header {
-    font-family: serif;
-    padding: 20px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: oblique;
+    padding: 16px;
     text-align: center;
     text-transform: uppercase;
-    background-color: rgba(150, 20, 30,0.3);
-    color: white;
-    text-shadow: 2px 3px 4px rgb(115,200,200);
+    background-color: rgba(20, 150, 122, 0.5);
+    text-shadow: 2px 3px 2px rgb(220, 15, 200);
     text-decoration: underline;
-    font-size: 2vw;
+    font-size: 2.1vw;
 }
