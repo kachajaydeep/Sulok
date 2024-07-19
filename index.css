@@ -1,8 +1,5 @@
 html {
-    background-image: url('./bg_Img.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center center;
+    background: url('./bg_Img.jpg') no-repeat fixed center;
     background-size: cover;
 }
 body{
