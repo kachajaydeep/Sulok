@@ -1,0 +1,7 @@
+div{
+    height:150px;
+    width: 150px;
+    border: 1px solid black;
+    background-color: chartreuse;
+    box-shadow: 19px 10px 12px 5px;
+}
