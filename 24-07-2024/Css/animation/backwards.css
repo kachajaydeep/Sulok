@@ -1,0 +1,15 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: Name;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    position: relative;
+    animation-fill-mode: backwards;
+}
+
+@keyframes Name{
+    from{top: 0;background-color: yellow;}
+    to{top: 200px;}
+}

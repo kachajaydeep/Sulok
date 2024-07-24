@@ -1,0 +1,27 @@
+div{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: Name;
+    animation-duration: 6s;
+    background-color: red;
+}
+#div1{
+    animation-timing-function: ease;
+}
+#div2{
+    animation-timing-function: ease-in;
+}
+#div3{
+    animation-timing-function: ease-out;
+}
+#div4{
+    animation-timing-function: linear;
+}
+#div5{
+    animation-timing-function: ease-in-out;
+}
+@keyframes Name{
+    from{left: 0px;}
+    to{left: 300px;}
+}
