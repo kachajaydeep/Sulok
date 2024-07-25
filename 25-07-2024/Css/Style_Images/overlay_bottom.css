@@ -1,0 +1,34 @@
+.container{
+    width: 50%;
+    position: relative;
+}
+.image{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.overlay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+    background-color: lightgrey;
+}
+.container:hover .overlay{
+height: 100%;
+}
+.text{
+    white-space: nowrap;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
