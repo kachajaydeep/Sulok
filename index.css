@@ -2,6 +2,9 @@ html {
     background: url('./bg_Img.jpg') no-repeat fixed center;
     background-size: cover;
 }
+details ~summary{
+    text-align: center;
+}
 body{
     margin: 0;
 }
