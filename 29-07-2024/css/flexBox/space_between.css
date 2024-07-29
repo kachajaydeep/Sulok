@@ -1,0 +1,11 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+}
+.container>div{
+    width: 100px;
+    line-height: 75px;
+    background-color: aqua;
+    text-align: center;
+}
