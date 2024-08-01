@@ -5,29 +5,35 @@ html {
 body{
     margin: 0;
 }
+.container{
+    display: flex;
+    justify-content: center;
+    flex:100%;
+}
+.container>details{
+    text-align: center;
+    width: 100%;
+}
 summary {
     background-color: rgba(206, 193, 211, 0.7);
     margin: 5px;
     display: grid;
-    grid-template-columns: 33%;
-    width: 29%;    
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
+    border-bottom: 1px solid black;
 }
 .display {
+    height: 150px;
     display: flex;
     margin: 20px;
     justify-content: space-between;
-    overflow-x: auto;
+    flex-wrap: wrap;
+    align-content: space-around;
 }
 
 @media screen and (max-width:997px) {
-    .display {
-        display: grid;
-    }
-
     a {
         border-bottom: 1px solid black;
     }
