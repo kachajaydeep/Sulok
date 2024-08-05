@@ -1,0 +1,18 @@
+.grid-container{
+    display: grid;
+    box-flex-group: pink;
+    padding: 10px;
+    gap: 10px;
+    grid-template-columns: auto auto auto auto auto auto;
+}
+.grid-container>div{
+    background-color: red;
+    padding: 30px;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+.item1{
+    grid-column: 1 / span 3;
+    border: 1px solid black;
+}
