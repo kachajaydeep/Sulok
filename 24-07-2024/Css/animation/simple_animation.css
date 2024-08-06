@@ -1,0 +1,10 @@
+div{
+    width: 150px;
+    height: 150px;
+    animation-name:Jattin_Bhatti;
+    animation-duration: 6s;
+}
+@keyframes Jattin_Bhatti{
+from{background-color: red;}
+to{background-color: yellow;}
+}

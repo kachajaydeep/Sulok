@@ -1,0 +1,12 @@
+.container{
+    display: flex;
+    background-color: aqua;
+    height: 200px;
+}
+.container>div{
+    width: 100px;
+    line-height: 75px;
+    background-color: red;
+    text-align: center;
+    margin: 10px;
+}

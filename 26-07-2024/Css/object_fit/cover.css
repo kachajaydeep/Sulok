@@ -1,0 +1,13 @@
+.container {
+    border: 2px solid black;
+    width: 506px;
+    height: 488px;
+    background-color: turquoise;
+}
+
+img {
+    width: 506px;
+    height: 488px;
+    object-fit: cover;
+
+}

@@ -1,0 +1,16 @@
+.example{
+    background-color: lightgrey;
+    padding: 20px;
+}
+@media screen and (max-width:600px) {
+    .example{
+        font-size: 30px;
+        background-color: red;
+    }
+}
+@media screen and (min-width:600px) {
+    .example{
+        font-size: 60px;
+        background-color: yellow;
+    }
+}

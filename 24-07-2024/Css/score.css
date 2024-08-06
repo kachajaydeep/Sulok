@@ -1,0 +1,35 @@
+.box {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+
+    background-color: rgba(250, 200, 100, 0.3);
+    transition: height 4s;
+}
+.container{
+    border-bottom: 1px solid black;
+    position: fixed;
+    bottom: 0;
+    display: inline-flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+.box:hover {
+    height: 500px;
+}
+
+#div1{
+    transition-timing-function: ease;
+}
+#div2{
+transition-timing-function: ease-in;
+}
+#div3{
+    transition-timing-function: ease-out;
+}
+#div4{
+transition-timing-function: linear;
+}
+#div5{
+transition-timing-function: ease-in-out;
+}

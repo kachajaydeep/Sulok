@@ -1,0 +1,34 @@
+.container{
+    position: relative;
+}
+.topleft{
+    position: absolute;
+    left: 12px;
+    top: 6px;
+}
+.topright{
+    position: absolute;
+    right: 12px;
+    top: 6px;
+}
+.bottomleft{
+    position: absolute;
+    bottom: 12px;
+    left: 6px;
+}
+.bottomright{
+    position: absolute;
+    bottom: 12px;
+    right: 6px;
+}
+.center{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+img{
+    width: 100%;
+    height: auto;
+    opacity: 0.3;
+}

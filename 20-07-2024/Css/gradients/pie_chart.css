@@ -1,0 +1,6 @@
+#grad1{
+height: 150px;
+width: 150px;
+background-image: conic-gradient(blue,red,green,black,purple);
+border-radius: 50%;
+}

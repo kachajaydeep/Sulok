@@ -1,0 +1,15 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    background-color: violet;
+    gap: 10px;
+    grid-template-rows: 80px 200px;
+}
+.grid-container>div{
+    background-color: aquamarine;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30;
+    border: 1px solid navy;
+}

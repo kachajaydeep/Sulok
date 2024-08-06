@@ -1,0 +1,6 @@
+#ex1{
+    border: 1px solid black;
+    background-size: 150px;
+    background: url('../img_flwr.gif') right bottom no-repeat, url('../paper.gif') left top repeat;
+    background-size: 130px, auto;
+}

@@ -1,0 +1,15 @@
+body{
+    background-color: gainsboro;
+}
+
+h1{
+    background-color: black;
+    color: white;
+}
+p{
+    color: blue;
+}
+div{
+    color: white;
+    background-color: blue;
+}

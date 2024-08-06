@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+    height: 600px;
+    background-color: aqua;
+    flex-wrap:wrap ;
+    align-content: flex-start;
+}
+.container>div{
+    margin: 10px;
+    width: 100px;
+    line-height: 75px;
+    background-color: red;
+    text-align: center;
+}

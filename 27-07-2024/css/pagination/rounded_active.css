@@ -1,0 +1,17 @@
+.pagination{
+    display: inline-block;
+    margin-top: 15px;
+}
+.pagination a{
+    text-decoration: none;
+    padding: 15px;
+    color: black;
+    border-radius: 5px;
+}
+.pagination a.active{
+    background-color: greenyellow;
+    border-radius: 5px;
+}
+.pagination a:hover:not(.active){
+    background-color: gainsboro;
+}

@@ -1,0 +1,22 @@
+div{
+    margin: 5px;
+}
+
+#ex1{
+    border: 12px dotted black; 
+    background-color: yellow;
+    padding: 35px;
+    background-clip: border-box; /* The background painted outside edge of the border */
+}
+#ex2{
+    border: 12px dotted black;
+    background-color: yellow;
+    padding: 35px;
+    background-clip: padding-box; /* the background is painted outside edge of the padding. */
+}
+#ex3 {
+    border: 12px dotted black;
+    background-color: yellow;   
+    padding: 35px;
+    background-clip: content-box;  /* The background is painted within content box */
+}

@@ -1,0 +1,9 @@
+p.a {
+    text-align-last: center;
+}
+p.b{
+    text-align-last: left;
+}
+p.c{
+    text-align-last: right;
+}

@@ -1,0 +1,20 @@
+#grad1{
+height: 200px;
+width: 160px;
+background-image: radial-gradient(closest-side at 50% 55%,red,yellow,green);
+}
+#grad2{
+height: 200px;
+width: 200px;
+background-image: radial-gradient(farthest-side at 40% 65% ,red,green,yellow);
+}
+#grad3{
+height: 200px;
+width: 200px;
+background-image: radial-gradient(closest-corner at 40% 65% ,red,black, purple);
+}
+#grad4{
+height: 200px;
+width: 200px;
+background-image: radial-gradient(farthest-corner at 40% 65% ,red,black,green);
+}

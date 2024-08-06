@@ -1,0 +1,24 @@
+span.a1{
+    display: inline;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    padding: 5px;
+    background-color: yellow;
+}
+span.a2{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    padding: 5px;
+    background-color: yellow;
+}
+span.a3{
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    padding: 5px;
+    background-color: yellow;
+}

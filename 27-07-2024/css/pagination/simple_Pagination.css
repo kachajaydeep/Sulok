@@ -1,0 +1,9 @@
+.pagination{
+display: inline-block;
+}
+.pagination a{
+    text-decoration: none;
+    padding:8px 15px;
+    float: left;
+    color: black;
+}

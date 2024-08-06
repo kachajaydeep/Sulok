@@ -1,0 +1,10 @@
+p.test1{
+    width: 11em;
+    border: 1px solid black;
+    word-wrap: break-word;
+}
+p.test2{
+    width: 11em;   
+    border: 1px solid black;
+    word-wrap: normal;
+}

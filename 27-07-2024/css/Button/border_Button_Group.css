@@ -1,0 +1,14 @@
+.btn_Group .button{
+    background-color: #04AA6D;
+    border: 1px solid green;
+    color: white;
+    font-size: 16px;
+    padding: 12px 35px;
+    float: left;
+}
+.btn_Group .button:not(:last-child){
+    border-right: none;
+}
+.btn_Group .button:hover{
+    background-color: #3e8e41;
+}

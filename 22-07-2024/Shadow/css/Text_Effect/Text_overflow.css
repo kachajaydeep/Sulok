@@ -1,0 +1,20 @@
+div.test1 {
+    width: 200px;
+    border: 1px solid black;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
+    margin: 15px;
+}
+
+div.test2{
+    width: 200px;
+    border: 1px solid black;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 15px;
+}
+div.test:hover{
+overflow: visible;
+}

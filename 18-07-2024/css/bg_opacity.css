@@ -1,0 +1,13 @@
+img{
+    position: relative;
+    z-index: -1;
+}
+p{
+    background-color: white;
+    position: absolute;
+    top: 34%;
+    left: 9%;
+    padding: 20px;
+    border: 2px solid black;
+    opacity: 0.6;
+}

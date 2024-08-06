@@ -1,0 +1,36 @@
+.box{
+    margin: 10px 0  0 12px;
+    width: 320px;
+    height: 100px;
+    border: 3px solid green;
+    padding: 5px;
+    outline: medium outset blue;
+    outline-offset: 4px;
+}
+img{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.container{
+    float: left;
+    /* width: 351px;
+    height: 400px; */
+    /* width: 356px;
+    height: 405px; */
+    width: 360px;
+    height: 411px;
+    border: 3px solid red;
+    margin: 0 10px 10px 0 ;
+}
+
+@media screen and (max-width:600px) {
+    .container{
+        width: 100%;
+    }
+    .box{
+        width: 89.5%;
+    }
+    img{
+        width: 97%;
+    }
+}
