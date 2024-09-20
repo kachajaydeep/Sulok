@@ -1,0 +1,16 @@
+p{
+    border: 10px double;
+    padding: 10px;
+    background: url("./background_Image.jpg");
+    background-position:bottom right 0px 0px;
+
+}
+.content-box{
+    margin: 10px 0;
+  color: #fff;
+  border: 20px dashed black;
+  padding: 20px;
+  width: 400px;
+  background-origin: content-box,border-box;
+  background-repeat: no-repeat;
+}
