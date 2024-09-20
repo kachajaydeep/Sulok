@@ -1,0 +1,32 @@
+.exampleone{
+    background-color: transparent;
+}
+.exampletwo{
+    background-color: rgb(153, 102, 153);
+    color: rgb(255 255 204);
+}
+.examplethree{
+    background-color: #777799;
+    color: #ffffff;
+}
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 250px;
+    height: 250px;
+}
+td{
+    border: 1px solid black;
+}
+#r1{
+    background-color: lightblue;
+}
+#c12{
+    background-color: aqua;
+}
+#r2{
+    background-color: gray;
+}
+#r3{
+    background-color: olive;
+}
