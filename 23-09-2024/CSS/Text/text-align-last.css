@@ -1,0 +1,24 @@
+*{
+    padding: 20px;
+}
+.container{
+    display: inline-block;
+}
+.a{
+    width: 400px;
+    background-color: black;
+    color: white;
+    text-align-last: left;
+}
+.b{
+    width: 400px;
+    background-color: red;
+    color: white;
+    text-align-last: center;
+}
+.c{
+    width: 400px;
+    background-color: purple;
+    color: white;
+    text-align-last: right;
+}

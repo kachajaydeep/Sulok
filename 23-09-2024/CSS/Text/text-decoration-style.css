@@ -1,0 +1,25 @@
+.solid{
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: red;
+}
+.double{
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    text-decoration-color: purple;
+}
+.ridge{
+    text-decoration-line: underline;
+    text-decoration-style: ridge;
+    text-decoration-color: pink;
+}
+.inset{
+    text-decoration-line: underline;
+    text-decoration-style: inset;
+    text-decoration-color: tomato;
+}
+.outset{
+    text-decoration-line: underline;
+    text-decoration-style: outset;
+    text-decoration-color: black;
+}
