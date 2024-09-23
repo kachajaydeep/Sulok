@@ -1,0 +1,44 @@
+div{
+   border: 0.8em dotted orange;
+   background-repeat: no-repeat;
+   padding: 1.4em;
+   background-color: aqua;
+   margin: 1.4em 0;
+}
+h1{
+    text-align: center;
+}
+.border-box{
+    background-clip: border-box;
+}
+.padding-box{
+    background-clip: padding-box;
+}
+.content-box{
+    background-clip: content-box;
+}
+
+#border-box{
+    background-origin: border-box;
+}
+#padding-box{
+    background-origin: padding-box;
+}
+#content-box{
+    background-origin: content-box;
+}
+.box{
+    width: 500px;
+    height: 400px;
+    background-image: url("./img_flowers.jpg");
+    padding:50px;
+}
+.box1{
+    background-origin: border-box;
+}
+.box2{
+    background-origin: padding-box;
+}
+.box3{
+    background-origin: content-box;
+}
