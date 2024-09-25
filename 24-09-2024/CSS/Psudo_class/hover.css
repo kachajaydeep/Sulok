@@ -1,0 +1,26 @@
+*{
+    padding: 30px;
+}
+div{
+    font-size: larger;
+}
+a{
+    display: block;
+}
+a:link{
+    color: gray;
+    font-size: 15px;
+}
+a:visited{
+    background-color: red;
+    color:#3c9640;
+}
+a:hover{
+    color: white;
+    background-color: black;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+a:active{
+    color: yellow;
+}
