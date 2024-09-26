@@ -1,0 +1,11 @@
+table{
+    border: 1px solid black;
+    border-spacing: 20px;
+    /* border-collapse: collapse;  It is not exist */
+}
+td{
+    width: 5px;
+    height: 5px;
+    background: #d2d2d2;
+    border: 1px solid black;
+}
