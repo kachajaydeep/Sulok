@@ -1,0 +1,30 @@
+#rcorner1{
+    border: 2px solid green;
+    width: 200px;
+    display: flex;
+    justify-content: center;    /* horizontally center */
+    align-items: center;    /* vertically Cetered */
+    border-radius: 25px;
+    background: #73AD21;
+    height: 150px;
+}
+#rcorner2{
+    border: 2px solid green;
+    border-radius: 25px;
+    width: 260px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#rcorner3{
+    border: 2px solid green;
+    border-radius: 25px;
+    background-image: url('../bg_Img.jpg');
+    width: 160px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

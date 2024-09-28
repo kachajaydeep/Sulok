@@ -1,0 +1,13 @@
+.f-container{
+    display: flex;
+    flex-flow: row wrap;
+    background-color: red;
+}
+.f-container>div {
+    width: 100px;
+    line-height: 75px;
+    background-color: rebeccapurple;
+    color: white;
+    margin: 10px;
+    text-align: center;
+}

@@ -1,0 +1,81 @@
+.auto{
+    cursor: auto;
+}
+.none{
+    cursor: none;
+}
+.default{
+    cursor: default;
+}
+.crosshair{
+   cursor: crosshair;
+}
+.default{
+    cursor: default;
+}
+.e-size{
+    cursor:e-resize
+}
+.help{
+    cursor: help;
+}
+.vertical-text{
+    cursor: vertical-text;
+}
+.alias{
+    cursor: alias;
+}
+.copy{
+    cursor: copy;
+}
+.grab{
+    cursor: grab;
+}
+.grabbing{
+    cursor: grabbing;
+}
+.all-scroll{
+    cursor: all-scroll;
+}
+.move{
+    cursor: move;
+}
+.no-drop{
+    cursor: no-drop;
+}
+.not-allowed{
+    cursor: not-allowed;
+}
+.n-resize{
+    cursor: n-resize;
+}
+.ne-resize{
+    cursor: ne-resize;
+}
+.nw-resize{
+    cursor: nw-resize;
+}
+.pointer{
+    cursor: pointer;
+}
+.progress{
+    cursor: progress;
+}
+.s-resize{
+    cursor: s-resize;
+}
+.se-resize{
+    cursor: se-resize;
+}
+.sw-resize{
+    cursor:sw-resize;
+}
+.text{
+    cursor: text;
+}
+.w-resize{
+    cursor: w-resize;
+}
+.wait{
+    cursor: wait;
+}

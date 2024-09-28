@@ -1,0 +1,19 @@
+:root{
+    --blue:red;
+    --white:aqua;
+}
+body{
+    background-color: var(--blue);
+}
+.container{
+    background-color: var(--white);
+    color: var(--blue);
+    padding: 15px;
+}
+button{
+    border: 1px solid var(--blue);
+    background-color: var(--white);
+}
+h2{
+    border-bottom: 1px solid var(--blue);
+}

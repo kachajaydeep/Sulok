@@ -1,0 +1,14 @@
+div{
+    border: 1px solid grey;
+    padding: 8px;
+}
+h1{
+    text-align: center;
+    color: green;
+    text-transform: uppercase;
+}
+p{
+    text-indent: 50px;
+    text-align: justify;
+    letter-spacing: 3px;
+}

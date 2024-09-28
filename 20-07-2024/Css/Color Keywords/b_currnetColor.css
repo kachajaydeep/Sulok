@@ -1,0 +1,11 @@
+body{
+    color: blueviolet;
+}
+div{
+    border: 1px solid black;
+    text-align: center;
+    background-color: currentColor;
+}
+div p {
+    color: white;
+}

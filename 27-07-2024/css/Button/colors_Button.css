@@ -1,0 +1,23 @@
+.button{
+    background-color: white;
+    border: none;
+    padding: 20px;
+    margin: 5px;
+    font-size: 16px;
+    display: inline-block;
+}
+.button1{
+    border: 3px solid green;
+}
+.button2{
+    border: 3px solid blue;
+}
+.button3{
+    border: 3px solid red;
+}
+.button4{
+    border: 3px solid gray;
+}
+.button5{
+    border: 3px solid black;
+}

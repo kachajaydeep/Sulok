@@ -1,0 +1,10 @@
+div{
+    height: 100px;
+    width: 300px;
+    background-color: khaki;
+}
+#myDiv{
+    margin: 10px;
+    border: 1px solid black;
+    transform: skew(20deg); 
+}

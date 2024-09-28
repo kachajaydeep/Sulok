@@ -1,0 +1,8 @@
+.center{
+    height: 600px;
+    border-bottom: 1px solid black;
+    background-image: url('./background_Image.jpg');
+    background-position: bottom 25% right 15%; /*start with elenent end top and center,left,right*/
+    background-repeat: no-repeat;
+    background-size: 100px;
+}

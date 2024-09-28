@@ -1,0 +1,8 @@
+div{
+    background-color: khaki;
+    color: red;
+    height: 100px;
+    width: 200px;
+    margin: 100px;
+    transform: scaleY(0.5);
+}
