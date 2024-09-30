@@ -1,0 +1,10 @@
+input{
+    border: 2px solid tomato;
+}
+label{
+    font-family: system-ui, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.25rem;
+    & input{
+        border: blue 2px dashed;
+    }
+}
