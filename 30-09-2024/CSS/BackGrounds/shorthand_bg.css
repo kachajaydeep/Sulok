@@ -1,0 +1,7 @@
+#example1{
+    background: url('./paper.gif') left bottom no-repeat,url('./img_flwr.gif') center center no-repeat,url('./img_tree.gif') bottom right no-repeat;
+    background-color: #000;
+    width: 100%;
+    height: 500px;
+    color: #fff;
+}
