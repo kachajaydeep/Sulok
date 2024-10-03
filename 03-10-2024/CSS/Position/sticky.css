@@ -1,0 +1,14 @@
+.container{
+    border: 1px solid black;;
+}
+#div1{
+    position: sticky;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    color: white;
+    top: 0;
+}
+body{
+    height: 2000px;
+}
