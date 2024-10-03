@@ -1,0 +1,16 @@
+#div1{
+    color: white;
+    width: 200px;
+    height: 200px;
+    background-color: purple;
+}
+#div2{
+    position: relative;
+    bottom: 100px;
+    left: 50px;
+    color: white;
+    width: 200px;
+    height: 200px;
+    background-color:palevioletred;
+    border: 2px solid black;
+}
