@@ -1,0 +1,15 @@
+.polaroid{
+width: 33%;
+box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.6);
+margin: 12px 0;
+display: inline-block;
+}
+.container{
+text-align: center;
+padding: 10px 12px;
+}
+@media screen and (max-width:819px) {
+    .polaroid{
+        width: 100%;
+    }
+}

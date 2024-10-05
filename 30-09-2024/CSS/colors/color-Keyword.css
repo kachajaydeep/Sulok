@@ -1,0 +1,7 @@
+body{
+    --red:rgba(255,0,0,1);
+}
+#ex1{
+color: var(--red);
+border: 10px solid currentColor;
+}

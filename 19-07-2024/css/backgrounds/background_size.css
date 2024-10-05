@@ -1,0 +1,23 @@
+.div1{
+    border: 2px solid black;
+    height: 120px;
+    width: 150px;
+    background-image: url('../img_flwr.gif');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.div2{
+    border: 2px solid black;
+    height: 120px;
+    width: 150px;
+    background-image: url('../img_flwr.gif');   
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.div3{
+    border: 2px solid black;
+    height: 120px;
+    width: 150px;
+    background-image: url('../img_flwr.gif');
+}

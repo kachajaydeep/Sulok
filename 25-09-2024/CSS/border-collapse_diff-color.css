@@ -1,0 +1,8 @@
+.cell1{
+    border-style: solid;
+    border-color: red blue;
+    padding: 10px 5px;
+}
+table{
+    border-spacing: 5px 1.5rem;
+}
