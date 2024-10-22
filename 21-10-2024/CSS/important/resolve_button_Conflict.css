@@ -1,0 +1,9 @@
+.button{
+    background-color: #868686 !important;
+    color: #fff !important;
+    padding: 10px !important;
+}
+#myDiv a{
+    background-color: red;
+    color: pink;
+}
