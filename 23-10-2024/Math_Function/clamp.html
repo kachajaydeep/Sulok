@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clamp</title>
+    <link rel="stylesheet" href="../CSS/Math_Function/clamp.css">
+</head>
+
+<body>
+    <h1><b><i>Syntax of The clamp</i></b><code>clamp(<minimum value>,<value to be clamped>,<Maximum value>)</code></h1>
+        <p><b>Note1:</b>If the value to be clamped is less than the passed minimum value, the function will return the minimum value.</p>
+        <p><b>Note2:</b>If the value to be clamped is greater than the passed maximum value, the function will return the maximum value.</p>
+        <p><b>Note3:</b>If the value to be clamped is greater than the passed maximum value, the function will return the maximum value.</p>
+    <div class="clamp1">
+        <code>width: clamp(10%, 1px, 90%);</code>
+    </div>
+
+    <div class="clamp2">
+        <code>width: clamp(10%, 9999px, 90%);</code>
+    </div>
+
+    <div class="clamp3">
+        <code>width: clamp(125px, 1px, 250px);</code>
+    </div>
+
+    <div class="clamp4">
+        <code>width: clamp(25px, 9999px, 150px);</code>
+    </div>
+
+</body>
+
+</html>
