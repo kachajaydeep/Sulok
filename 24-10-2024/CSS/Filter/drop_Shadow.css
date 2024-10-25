@@ -1,0 +1,23 @@
+.parent{
+    display: inline-block;
+}
+.container {
+    width: 400px;
+    height: 400px;
+    background-image: url('https://images.unsplash.com/photo-1560674457-12073ed6fae6?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGNhbXxlbnwwfHwwfHx8MA%3D%3D');
+    background-size: cover;
+    background-position: center center;
+    filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+    float: left;
+}
+
+.container1 {
+    background-image: url('https://images.unsplash.com/photo-1560674457-12073ed6fae6?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGNhbXxlbnwwfHwwfHx8MA%3D%3D');
+    background-size: cover;
+    background-position: center center;
+    width: 400px;
+    height: 400px;
+    box-shadow: 0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5);
+    float: left;
+    margin-left: 100px;
+}

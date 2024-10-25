@@ -1,0 +1,9 @@
+.container{
+    width: 500px;
+    height: 500px;
+    background-image: url('https://images.unsplash.com/photo-1560674457-12073ed6fae6?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGNhbXxlbnwwfHwwfHx8MA%3D%3D');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(90%);
+}

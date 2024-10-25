@@ -1,0 +1,10 @@
+.container{
+    height: 500px;
+    width: 500px;
+    background-image: url('https://buffer.com/library/content/images/size/w1200/2023/10/free-images.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    filter: blur(3px);
+}
