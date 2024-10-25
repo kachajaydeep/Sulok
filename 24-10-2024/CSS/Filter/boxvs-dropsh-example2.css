@@ -1,0 +1,33 @@
+.container{
+    position: relative;
+    width: 608px;
+    height: 210px;
+    margin: 50px;
+    box-shadow: 8px 6px 10px rgba(0, 0, 0, 0.5);
+}
+.child1{
+    position: absolute;
+    z-index: 1;
+}
+.child2{
+    position: absolute;
+    width: 500px;
+    z-index: 0;
+    color: white;
+    border: 5px solid black;
+    height: 100px;
+    background-color: blue;
+    top: 100px;
+    left: 100px;
+}
+.container1{
+    position: relative;
+    width: 608px;
+    height: 210px;
+    margin: 50px;
+    box-shadow: 8px 6px 10px rgba(0, 0, 0, 0.5);
+}
+.child1{
+    position: absolute;
+    
+}

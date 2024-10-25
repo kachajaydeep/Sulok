@@ -1,0 +1,9 @@
+.container{
+    width: 75vh;
+    height: 40vh;
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20200714/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    filter: brightness(60%);
+}

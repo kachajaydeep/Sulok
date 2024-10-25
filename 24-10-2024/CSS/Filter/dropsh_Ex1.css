@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 2rem;
+}
+.grad{
+    width: 15rem;
+    height: 15rem;
+    margin: 1rem;
+    background: linear-gradient(45deg,red 50%, transparent 50%);
+    filter: drop-shadow(0.6rem 0.6rem 1rem rgba(20, 20, 180,0.8));
+}
+.grad:nth-child(2){
+    background: radial-gradient(circle at center, blue 50%,transparent 50%);
+}
+.grad:nth-child(3){
+    background: linear-gradient(45deg, transparent 60%, deeppink 60%);
+}
