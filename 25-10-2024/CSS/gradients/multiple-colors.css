@@ -1,0 +1,15 @@
+#grad1{
+    width: 400px;
+    height: 400px;
+    background-image: linear-gradient(red,yellow,green);
+}
+#grad2{
+    width: 400px;
+    height: 400px;
+    background-image: linear-gradient(red,orange,yellow,green,blue,violet);
+}
+#grad3{
+    width: 400px;
+    height: 400px;
+    background-image: linear-gradient(red 10%,green 85%,blue 90%);
+}
