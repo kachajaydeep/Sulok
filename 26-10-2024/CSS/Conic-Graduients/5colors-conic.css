@@ -1,0 +1,5 @@
+#grad{
+    width: 200px;
+    height: 200px;
+    background-image: conic-gradient(red,yellow,pink,blue,green);
+}
