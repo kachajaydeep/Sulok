@@ -1,0 +1,15 @@
+#grad1{
+    width: 300px;
+    height: 200px;
+    background-image: radial-gradient(circle, red, yellow, green);
+}
+#grad2{
+    width: 300px;
+    height: 200px;
+    background-image: radial-gradient(Ellipse, red,yellow,pink);
+}
+#grad3{
+    width: 300px;
+    height: 200px;
+    background-image: radial-gradient(closest-side, red,yellow,pink);
+}
