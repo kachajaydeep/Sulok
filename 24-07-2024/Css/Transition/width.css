@@ -1,0 +1,16 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(250, 100, 50, 0.5);
+    text-align: center;
+    transition: width 2s;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    font-size: 1vw;
+}
+div:hover{
+    width: 200px;
+}

@@ -1,0 +1,13 @@
+ol {
+    counter-reset: count;
+    padding-left: 5em;
+}
+li {
+    counter-increment: count;
+}
+li::marker{
+    content: "Item#" counter(count) " is: ";
+}
+li::after {
+    content: "[" counter(count,decimal-lending-zero) "] == [" counter(count,upper-roman) "]";
+}

@@ -1,0 +1,31 @@
+ul {
+    list-style-type: none;
+    width: 200px;
+    background-color: gainsboro;
+    padding: 0px;
+    margin: auto;
+    border: 1px solid black;
+}
+
+li a {
+    text-decoration: none;
+    display: block;
+    padding: 8px 15px;
+    color: black;
+    border-bottom: 1px solid black;
+
+}
+
+li a:hover {
+    background-color: green;
+    color: white;
+}
+li a.active {
+    background-color: gray;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: green;
+    color: white;
+}

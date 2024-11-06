@@ -1,0 +1,48 @@
+div {
+    background-color: green ;
+    height: 50px;
+    text-align: center;
+    padding: 70px 0;
+    width:130px;
+    display: inline-block;
+}
+
+.div1 {
+    opacity: 0.1;
+}
+
+.div2 {
+    opacity: 0.2;
+}
+
+.div3 {
+    opacity: 0.3;
+}
+
+.div4 {
+    opacity: 0.4;
+}
+
+.div5 {
+    opacity: 0.5;
+}
+
+.div6 {
+    opacity: 0.6;
+}
+
+.div7 {
+    opacity: 0.7;
+}
+
+.div8 {
+    opacity: 0.8;
+}
+
+.div9 {
+    opacity: 0.9;
+}
+
+.div10 {
+    opacity: 1.0;
+}

@@ -1,0 +1,7 @@
+.right{
+    position: absolute;
+    right: 0;
+    border: 2px solid green;
+    width: 300px;
+    padding: 30px;
+}

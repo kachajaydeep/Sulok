@@ -1,0 +1,9 @@
+body{
+    /* declaration of the counter*/
+    counter-reset: section;
+}
+
+h2::before{
+   counter-increment: section;
+    content: "boy"counter(section)" : ";
+}

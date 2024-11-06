@@ -1,0 +1,9 @@
+body{
+    color: blue ;
+}
+.common{
+    border: 10px solid currentColor ;
+    margin: 10px;
+    padding: 10px;
+    /* color: red; */
+}

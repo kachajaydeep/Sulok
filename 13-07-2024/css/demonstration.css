@@ -1,0 +1,7 @@
+div{
+    width: 300px;
+    background-color: grey;
+    padding: 50px;
+    margin: auto;
+    border: 15px solid red;
+}

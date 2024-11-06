@@ -1,0 +1,10 @@
+p{
+    border-top-style:dashed ;
+    border-right-style: groove;
+    border-bottom-style: inset;
+    border-left-style: solid;
+    border-right-color: aqua;
+    border-top-color: blue;
+    border-bottom-color: red;
+    padding: 5px;
+}

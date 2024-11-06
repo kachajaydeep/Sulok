@@ -1,0 +1,19 @@
+li a {
+    background-color: gainsboro;
+    color: black;
+    display: block;
+    border-bottom: 2px solid rgb(252, 4, 4);
+    padding: 10px 15px;
+    text-decoration: none;
+
+}
+ul {
+    width: 200px;
+    list-style-type: none;
+
+}
+
+a:hover,a:active{
+    background-color: grey;
+    color: white;
+}

@@ -1,0 +1,14 @@
+#ex1{
+    width: 500px;
+    height: 150px;
+    background-color: #f1f1f1;
+    padding: 16px;
+    box-shadow: 5px 5px red,10px 10px blue, 10px 15px green;
+}
+#ex2{
+    width:600px;
+    height: 150px;
+    background-color: #f1f1f1;
+    padding: 16px;
+    box-shadow: 5px 5px 6px red, 10px 10px 15px blue,15px 15px 20px green;
+}

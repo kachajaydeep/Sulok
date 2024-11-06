@@ -1,0 +1,22 @@
+ .container{
+    border: 1px solid black;
+    box-sizing: border-box;
+    float: left;
+ }
+ .common{
+    margin: 5px;
+    width: 50px;
+    height: 150px;
+ }
+ .div1{
+    background-color: red;
+    float: inline-end;
+ }
+ .div2{
+    background-color: pink;
+    float: inline-end;
+ }
+ .div3{
+    background-color: grey;
+    float: right;
+ }

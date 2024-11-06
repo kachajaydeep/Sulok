@@ -1,0 +1,4 @@
+p.ex2{
+    direction: rtl;
+    unicode-bidi: isolate-override;
+}

@@ -1,0 +1,7 @@
+div {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    width: 100%;
+    white-space: nowrap;
+    background-color: khaki;
+}

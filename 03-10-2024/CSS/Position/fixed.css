@@ -1,0 +1,22 @@
+body{
+    height: 2000px;
+}
+.container{
+    height: 1000px;
+    border: 1px solid black;
+}
+#div1{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    color: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+#div2{
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+
+}

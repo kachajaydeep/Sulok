@@ -1,0 +1,11 @@
+.parent{
+    height: 200px;
+    width: 200px;
+    background-color: rebeccapurple;
+    font-size: 100px;
+}
+.child{
+    height: 1em;
+    width: 1em;
+    background-color: red;
+}

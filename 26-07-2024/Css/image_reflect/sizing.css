@@ -1,0 +1,6 @@
+body{
+    height: 900px;
+}
+img{
+    -webkit-box-reflect: below 100px;
+}

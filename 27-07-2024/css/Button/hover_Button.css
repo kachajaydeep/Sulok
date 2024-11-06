@@ -1,0 +1,92 @@
+.button{
+    border: none;
+    padding: 20px;
+    background-color: white;
+    margin: 5px;
+    font-size: 16px;
+    display: inline-block;
+ 
+}
+.button1{
+    border: 2px solid green;
+}
+.button1:hover{
+    background-color: green;
+    color: white;
+}
+.button2{
+    border: 2px solid blue;
+}
+.button2:hover{
+    background-color: blue;
+    color: white;
+}
+.button3{
+    border: 2px solid red;
+}
+.button3:hover{
+    background-color: red;
+    color: white;
+}
+.button4{
+    border: 2px solid grey;
+}
+.button4:hover{
+    background-color: grey;
+    color: white;
+}
+.button5{
+    border: 2px solid black;
+}
+.button5:hover{
+    background-color: black;
+    color: white;
+}
+
+.button6{
+    background-color: green;
+    color: white;
+}
+.button6:hover{
+    color: black;
+    background-color: white;
+    border: 2px solid green;
+}
+
+.button7{
+    background-color: blue;
+    color: white;
+}
+.button7:hover{
+    color: black;
+    border: 2px solid blue;
+    background-color: white;
+}
+.button8{
+    background-color: red;
+    color:white;
+}
+.button8:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid red;
+}
+.button9{
+    background-color: gray;
+    color: white;
+}
+.button9:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid grey;
+}
+.button10{
+    background-color: black;
+    color: white;
+}
+.button10:hover{
+    color: black;
+    background-color: white;
+
+    border: 2px solid black;
+}

@@ -1,0 +1,23 @@
+div{
+    background-color: black;
+    margin: 4px 0;
+    width: 100%;
+}
+div >code {
+    background-color: blue;
+    color: white;
+    height: 60px;
+    display: block;
+}
+.max1 > code {
+    width: max(50px , 50%);
+}
+.max2 > code{
+    width: max(50px, 100%);
+}
+.max3 > code{
+    width: max(20px,50px,90%);
+}
+.max4 > code{
+    width: max(80px, 80%    );
+}

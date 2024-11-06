@@ -1,0 +1,16 @@
+caption{
+    caption-side: bottom;
+    background-color: yellow;
+    /* width: 500px;     */
+    padding: 10px 10px;
+}
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    /* width: 100px; */
+    /* height: 60px; */
+    padding: 10px 10px;
+}
+th,td{
+    border: 1px solid black;
+}

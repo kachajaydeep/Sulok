@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    background-color: aqua;
+    flex-wrap: wrap;
+    align-content: space-around;
+    height: 600px;
+    overflow: scroll;
+}
+.container>div{
+    width: 100px;
+    line-height: 75px;
+    background-color: blueviolet;
+    color: white;
+    margin: 10px;
+    text-align: center;
+}

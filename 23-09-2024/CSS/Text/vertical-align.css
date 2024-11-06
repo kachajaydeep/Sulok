@@ -1,0 +1,7 @@
+.bottom{
+    vertical-align: text-bottom;
+    font-size: 10px;
+}
+#bottom{
+    vertical-align: sub;
+}

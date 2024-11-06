@@ -1,0 +1,11 @@
+#panal , .flip {
+    font-size: 16px;
+    padding: 10px;
+    text-align: center;
+    background-color: gray;
+    margin: auto;
+}
+
+#panal {
+    display: none;
+}

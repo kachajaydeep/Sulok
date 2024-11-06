@@ -1,0 +1,17 @@
+div {
+    border: 2px solid black;
+    padding: 5px;
+}
+.i1{
+    float: right;
+}
+.i2 {
+    float: right;
+}
+
+
+.clearfix::after {
+    content:"";
+    display: table;
+    clear: both;
+}

@@ -1,0 +1,65 @@
+ul {
+    list-style-type: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+    overflow: hidden;
+    border-radius: 20px;
+
+}
+
+li {
+    float: left;
+    padding: 12px;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    padding: 14px 16px;
+}
+
+
+.active {
+    background-color: green;
+}
+
+li a:hover:not(.active) {
+    background-color: hotpink;
+}
+
+input[type=text] {
+    width: 40px;
+    background-image: url('search.svg');
+    background-repeat: no-repeat;
+    padding: 12px 3px 12px 40px;
+    background-position: 10px 9px;
+    font-size: 16px;
+    float: right;
+    box-sizing: border-box;
+    transition: width 0.4s;
+    border-radius: 20px;
+    outline: none;
+}
+
+@media only screen and (max-width: 600px) {
+    ul {
+        display: grid;
+    }
+
+    input[type=text] {
+        float: left;
+        width: 100%;
+    }
+
+    li a {
+        text-align: center;
+        background-color: grey;
+        display: block;
+    }
+}
+
+input[type=text]:focus {
+    width: 20%;
+}

@@ -1,0 +1,13 @@
+.container{
+    display: flex;
+    align-items: flex-end;
+    background-color: red;
+    height: 200px;
+}
+.container>div {
+    background-color: aqua;
+    width: 100px;
+    line-height: 75px;
+    margin: 10px;
+    text-align: center;
+}

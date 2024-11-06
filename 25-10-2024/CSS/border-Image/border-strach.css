@@ -1,0 +1,4 @@
+#stratch{
+    border: 10px solid transparent;
+    border-image: url('https://www.w3schools.com/css/border.png') 30 stretch;
+}

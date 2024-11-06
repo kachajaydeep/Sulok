@@ -1,0 +1,8 @@
+.direction{
+    direction: rtl;
+}
+.unicode-bidi{
+    direction: rtl;
+    text-align: left;
+    unicode-bidi: bidi-override;
+}

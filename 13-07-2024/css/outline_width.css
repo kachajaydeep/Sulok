@@ -1,0 +1,22 @@
+p.thin{
+    border: 1px solid black;
+    outline-style: solid;
+    outline-color: red;
+    outline-width: thin;
+}
+
+p.medium{
+    border: 1px solid black;
+    outline-color: red;
+    outline-style: solid;
+    outline-width: medium;
+}
+
+p.thick
+{
+    border: 1px solid black;
+    outline-color: red;
+    outline-style: solid;
+    outline-width: thick;
+}
+

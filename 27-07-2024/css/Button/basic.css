@@ -1,0 +1,22 @@
+.button{
+    border: none;
+    padding: 15px 32px;
+    background-color: #04AA6D;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    margin: 4px 2px;
+    display: inline-block;
+}
+.button2{
+    background-color: blue;
+}
+.button3{
+    background-color: red;
+}
+.button4{
+    background-color: gray;
+}
+.button5{
+    background-color: black;
+}

@@ -1,0 +1,21 @@
+div{
+    background-color: black;
+    margin: 4px 0;
+    height: 100%;
+}
+div > code {
+    display: block;
+    background-color: green;
+    height: 60px;
+    width: 100%;
+    color: white;
+}
+.clamp1 > code {
+    width: clamp(10%,1px,90%);
+}
+.clamp2 > code {
+    width: clamp(50%, 30%, 70%);
+}
+.clamp3{
+    width: clamp(125px,1px,250px);
+}

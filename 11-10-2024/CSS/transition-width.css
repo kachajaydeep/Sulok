@@ -1,0 +1,14 @@
+input[type=text]{
+    padding:  12px 20px 12px 40px;
+    background-image: url('./searchicon.png');
+    background-repeat: no-repeat;
+    background-position:10px 10px;
+    font-size: 16px;
+    width: 130px;
+    transition: width 0.4s ease;
+    display: block;
+    margin: 8px 8px;
+}
+input[type=text]:focus{
+    width: 100%;
+}

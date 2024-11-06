@@ -1,0 +1,12 @@
+.p1{
+    text-decoration-line: underline;
+    text-decoration-color: aqua;
+}
+.p2{
+    text-decoration-line: overline;
+    text-decoration-color: red;
+}
+.p3{
+    text-decoration-line: line-through;
+    text-decoration-color: purple;
+}

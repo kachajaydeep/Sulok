@@ -1,0 +1,18 @@
+:root{
+    --blue:#1e90ff;
+    --white:#ffffff;
+}
+body{
+    background-color: var(--blue);
+}
+.container{
+    background-color: var(--white);
+    color: var(--blue);
+    padding: 15px;
+}
+button{
+    --button-blue:#0000ff;
+    border: 1px solid var(--button-blue);
+    background-color: var(--white);
+    color: var(--button-blue);
+}

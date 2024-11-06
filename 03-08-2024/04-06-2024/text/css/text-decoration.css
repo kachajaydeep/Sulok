@@ -1,0 +1,25 @@
+#para1{
+    text-decoration-line:underline;
+    text-decoration-color: red;
+}
+#para2{
+    text-decoration-line: line-through;
+    
+}
+#para3{
+    text-decoration-line: overline;
+    text-decoration-style: dashed;
+    text-transform: uppercase;
+}
+#para4{
+    text-decoration-line:overline underline line-through;
+    text-decoration-thickness:5px;
+    text-transform: lowercase;
+
+}
+a {
+
+    /* Beacause it's use only when presentate link without underline  */
+    text-decoration: none;
+    text-transform: capitalize;
+}

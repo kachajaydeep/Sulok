@@ -1,0 +1,20 @@
+.dropimg {
+    position: relative;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    position:absolute;
+    display: none;
+    box-shadow: 8px 12px 16px 6px rgba(0, 60, 70, 0.4);
+    z-index: 1;
+    min-width: 160px;
+}
+
+.dropimg:hover .dropdown-content {
+    display: block;
+}
+.desc {
+    text-align: center;
+    padding: 12px;
+}

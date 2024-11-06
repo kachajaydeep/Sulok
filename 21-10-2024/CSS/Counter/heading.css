@@ -1,0 +1,16 @@
+ol{
+    counter-reset: listCount;
+    list-style-type: none;
+}
+ol li::before{
+    counter-increment: listCount;
+    content:counter(listCount)" " ;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 5px 5px 5px 10px; 
+    margin: 10px 5px;
+}
+li{
+    margin-top: 10px;
+}

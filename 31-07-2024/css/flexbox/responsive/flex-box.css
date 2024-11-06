@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.container>.flex-left-item{
+flex: 50%;
+background-color: red;
+padding: 10px;
+}
+.container>.flex-right-item{
+flex: 50%;
+background-color: blue;
+padding: 10px;
+}
+@media screen and (max-width:800px) {
+    .container{
+        flex-direction: column;
+    }
+}
