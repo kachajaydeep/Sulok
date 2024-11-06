@@ -1,0 +1,11 @@
+div{
+    width: 100px;
+    height: 100px;
+    animation-name: simple;
+    background-color: pink;
+    animation-duration: 6s;
+}
+@keyframes simple{
+    from{background-color: red;}
+    to{background-color: yellow;}
+}

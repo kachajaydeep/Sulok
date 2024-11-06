@@ -1,0 +1,17 @@
+div{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: alternate;
+    animation-duration: 6s;
+    animation-direction: alternate;
+    animation-iteration-count: 2;
+    background-color: red;
+}
+@keyframes alternate{
+    0%{background-color: red;left: 0;top: 0;}
+    25%{background-color: yellow;left: 200px;top: 0;}
+    50%{background-color: purple;left: 200px;top: 200px;}
+    75%{background-color: pink;left: 0;top: 200px;}
+    100%{background-color: orange;left: 0;top: 0;}
+}

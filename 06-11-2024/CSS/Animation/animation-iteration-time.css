@@ -1,0 +1,18 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    color: white;
+    animation-name: iteration;
+    animation-duration: 6s;
+    animation-delay: 2s;
+    animation-iteration-count: 4;
+    position: relative;
+}
+@keyframes iteration{
+    0%{background-color: red;left:0;top: 0;}
+    25%{background-color: yellow;left: 200px;top: 0;}
+    50%{background-color: pink;left: 200px;top: 200px;}
+    75%{background-color: orange;left: 0;top: 200px;}
+    100%{background-color: purple;left: 0;top: 0;}
+}
