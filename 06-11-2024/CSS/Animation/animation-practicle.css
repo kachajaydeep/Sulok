@@ -1,0 +1,22 @@
+div{
+    width: 100px;
+    height:100px;
+    background-color: red;
+    border-radius: 50%;
+    animation-name: name;
+    animation-duration: 6s;
+    position: absolute;
+}
+@keyframes name{
+0%{top:0;left: 0;}
+10%{top: 509px;left: 200px;}
+20%{top:0;left: 300px;}
+30%{top: 509px;left: 400px;}
+40%{top: 0px;left: 500px;}
+50%{top: 509px;left: 600px;}
+60%{top: 0px;left: 700px;}
+70%{top: 509px;left: 800px;}
+80%{top: 0;left: 900px;}
+90%{top: 509px;left: 1000px;}
+100%{top: 0; left: 1400px;}
+}
