@@ -1,0 +1,10 @@
+img {
+    width: 200px;
+    height: 300px;
+    object-fit: scale-down;
+    border: 1px solid black;
+}
+
+.contain {
+    object-fit: contain;
+}
