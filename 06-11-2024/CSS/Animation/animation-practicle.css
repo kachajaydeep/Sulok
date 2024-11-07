@@ -6,6 +6,7 @@ div{
     animation-name: name;
     animation-duration: 6s;
     position: absolute;
+    animation-fill-mode: forwards;
 }
 @keyframes name{
 0%{top:0;left: 0;}
