@@ -1,0 +1,19 @@
+div{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    /* animation-name: exam;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-delay: -3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-fill-mode: both; */
+    /* n-d t-d i-d  */
+    animation: exam 4s linear -3s infinite alternate-reverse; /* shorthand property*/
+}
+@keyframes exam{
+    from{top:0px;background-color: yellow;}
+    to{top: 200px;background-color: blue;}
+}
