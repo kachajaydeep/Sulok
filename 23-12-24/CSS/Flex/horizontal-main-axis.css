@@ -1,0 +1,17 @@
+.flex-container {
+    display: flex;
+    height: 600px;
+    justify-content: space-between;
+    /*Justify-Content consider as a Main-axis here considering horizontally*/
+    /* Tip: flex-direction according the justify-content like horizontally then become horizontally */
+    align-items: center;
+    /* align item consider as cross-axis here considering vertically */
+}
+.flex-container .flex-items{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    color: white;
+    border: 1px solid black;
+    margin: 10px;
+}
