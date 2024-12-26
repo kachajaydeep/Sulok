@@ -1,0 +1,24 @@
+.container{
+    display: grid;
+}
+.item{
+    text-align: center;
+}
+.header{
+    background-color: skyblue;
+}
+.feature-yellow{
+    background-color: yellow;
+}
+.feature-purple{
+    background-color: purple;
+}
+.feature-red{
+    background-color: red;
+}
+.sign-up{
+    background-color: pink;
+}
+.content{
+    background-color: #fff;
+}
