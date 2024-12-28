@@ -1,0 +1,32 @@
+.container{
+    display: grid;
+    grid-template-areas: 'myArea1 myArea2 myArea3'
+                         'myArea1 myArea4 myArea5'    
+                         'myArea1 myArea6 myArea6';
+    padding: 10px;
+    gap: 10px;
+    background-color: dodgerblue;
+}
+.container > div {
+    background-color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+.item1{
+    grid-area: myArea1;
+}
+.item2{
+    grid-area: myArea2;
+}
+.item3{
+    grid-area: myArea3;
+}
+.item4{
+    grid-area: myArea4;
+}
+.item5{
+    grid-area: myArea5;
+}
+.item6{
+    grid-area: myArea6;
+}
