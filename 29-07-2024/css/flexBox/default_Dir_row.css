@@ -1,0 +1,14 @@
+.f-container {
+    display: flex;
+    background-color: DodgerBlue;
+    flex-direction: row;
+}
+
+.f-container>div {
+    width: 100px;
+    line-height: 75px;
+    background-color: red;
+    text-align: center;
+    margin: 10px;
+    color: white;
+}

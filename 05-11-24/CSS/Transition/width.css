@@ -1,0 +1,10 @@
+.container{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    color: white;
+    transition: width 2s;
+}
+.container:hover{
+    width: 600px;
+}

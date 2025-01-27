@@ -1,0 +1,17 @@
+.flexbox-container{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.flexbox-container .flex-items{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin: 10px;
+    border: 1px solid black;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    /* writing-mode: vertical-lr; */
+    /* align-items: center; */
+}

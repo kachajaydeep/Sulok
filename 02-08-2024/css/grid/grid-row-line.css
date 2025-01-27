@@ -1,0 +1,18 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: blueviolet;
+    padding: 10px;
+}
+.grid-container>div{
+    background-color: blue;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 30;
+    padding: 30px;
+    color: white;
+}
+.item1{
+    grid-row-start: 1;
+    grid-row-end: 3;
+}

@@ -1,0 +1,37 @@
+*{
+    padding: 10px;
+    margin: 20px 0;
+}
+.thin{
+    border-style: dotted;
+    border-width: medium;
+    border-color: black;
+    outline-style: solid;
+    outline-width: thin;
+    outline-color: red;
+    text-align: center;
+}
+.medium{
+    border-style: dotted;
+    border-width: medium;
+    outline-color: red;
+    outline-style: solid;
+    outline-width: medium;
+    text-align: center;
+}
+.thick{
+    border-style: dotted;
+    border-width: thick;
+    outline-color: red;
+    outline-style: solid;
+    outline-width: thick;
+    text-align: center;
+}
+.pixel{
+    border-style: dotted;
+    border-width: 5px;
+    outline-style: ridge;
+    outline-color: purple;
+    outline-width: 5px;
+    text-align: center;
+}

@@ -1,0 +1,7 @@
+div.polaroid{
+ width: 50%;
+ box-shadow: 0 6px 14px 0 rgba(0, 0, 0, 0.2), 0 6px 19px 0 rgba(0, 0, 0, 0.19);
+}
+div.container{
+    text-align: center;
+}

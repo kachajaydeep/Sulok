@@ -1,0 +1,15 @@
+h2{
+    text-align: center;
+}
+div{
+    width: 150px;
+    height: 150px;
+    animation: Full_Time;
+    animation-duration: 6s;
+}
+@keyframes Full_Time{
+    0%{background-color: red;}
+    25%{background-color: yellow;}
+    50%{background-color: green;}
+    75%{background-color: purple;}
+}

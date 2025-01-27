@@ -1,0 +1,8 @@
+body{
+    background-image: url('../paper.gif');
+}
+div{
+    border: 1px solid black;
+    text-align: center;
+    background-color: transparent;
+}

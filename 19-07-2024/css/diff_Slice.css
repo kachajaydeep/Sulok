@@ -1,0 +1,12 @@
+#borderimg1{
+ border: 9px solid transparent;
+ border-image: url('./border.png') 30 round;
+}
+#borderimg2{
+border: 9px solid transparent;
+border-image: url('./border.png') 25% stretch;
+}
+#borderimg3{
+border: 9px solid transparent;
+border-image: url('./border.png') 9% space;
+}

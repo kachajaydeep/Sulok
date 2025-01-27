@@ -1,0 +1,29 @@
+.common{
+    width: 200px;
+    margin: 30px;
+    display: inline-block;
+    height: 100px;
+}
+.container1{
+    background-color: red;
+    overflow: visible;
+}
+.container2{
+    background-color: blue;
+    overflow: hidden;
+}
+.container3{
+    background-color: pink;
+    overflow: scroll;
+    overflow-anchor: 500px;
+}
+.container4{
+    background-color: black;
+    color: white;
+    overflow: auto;
+}
+.container5{
+    background-color: purple;
+    overflow: clip;
+    overflow-clip-margin: 40px;
+}

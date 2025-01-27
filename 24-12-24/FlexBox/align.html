@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>align</title>
+    <style>
+        .container{
+            display: grid;
+            background-color: blue;
+            gap: 10px;
+            padding: 10px;
+            align-content: space-between;
+            height: 400px;
+            grid-template-columns: auto auto auto;
+        }
+        .container >div{
+            background-color: red;
+            color: #fff;
+            font-size: 30px;
+            padding: 20px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+    </div>
+</body>
+
+</html>

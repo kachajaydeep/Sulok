@@ -1,0 +1,10 @@
+.container{
+    max-width: 60vw;
+    height: 30vw;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTWYenGebfzJCuwiR4WdjzTzI7BdavwbbeHA&s');
+    background-repeat: no-repeat;
+    border: 1px solid black;
+    background-size: cover;
+    background-position: center center;
+    filter: drop-shadow(16px 16px 20px red) invert(75%);
+}

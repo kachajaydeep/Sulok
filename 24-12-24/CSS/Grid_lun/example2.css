@@ -1,0 +1,38 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 200px 250px 150px auto;
+    grid-template-areas: 
+        " header header header "
+        " fYellow fPurple fRed "
+        " fSign fSign fSign "
+        " fcontent fcontent fcontent "
+    ;
+}
+.item{
+    text-align: center;
+}
+.header{
+    background-color: skyblue;
+    grid-area: header;
+}
+.feature-yellow{
+    background-color: yellow;
+    grid-area: fYellow;
+}
+.feature-purple{
+    background-color: purple;
+    grid-area: fPurple;
+}
+.feature-red{
+    background-color: red;
+    grid-area: fRed;
+}
+.sign-up{
+    background-color: pink;
+    grid-area: fSign;
+}
+.content{
+    background-color: #fff;
+    grid-area: fcontent;
+}

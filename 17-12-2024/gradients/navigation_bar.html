@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation-bar</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            width: 25%;
+            height: 100%;
+            background-color: #f1f1f1;
+            overflow: auto;
+            position: fixed;
+        }
+
+        li a {
+            display: block;
+            text-decoration: none;
+            color: black;
+            padding: 8px 16px;
+        }
+
+        li:last-child {
+            border-bottom: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #f2f;
+            color: white;
+        }
+
+        li a.active {
+            background-color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li><a class="active" href="#Home">news</a></li>
+        <li><a href="#news">news</a></li>
+        <li><a href="#news">news</a></li>
+        <li><a href="#news">news</a></li>
+    </ul>
+
+    <div style="margin-left:25%;padding: 1px 16px;height: 1000px;">
+        <h2>Fixed Full-height Side Nav</h2>
+        <h3>Try to Scroll this area, and see how the sidenav sticks to the page</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, quis? Natus distinctio atque beatae ea autem,
+            obcaecati sit voluptates magnam omnis odio, illum maxime iure iste, possimus voluptatem non laudantium.</p>
+    </div>
+</body>
+
+</html>

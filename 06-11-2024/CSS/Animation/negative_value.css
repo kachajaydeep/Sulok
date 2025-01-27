@@ -1,0 +1,17 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: negative;
+    position: absolute;
+    animation-duration: 6s;
+    animation-delay: -2s;
+    right: 0;
+}
+@keyframes negative{
+    0%{background-color: red;right: 0;top: 0;}
+    25%{background-color: yellow;right: 0;top: 200px;}
+    50%{background-color: orange;right: 200px;top: 200px;}
+    75%{background-color: green;right: 200px;top: 0px;}
+    100%{background-color: blue;right: 0;top: 0;}
+}

@@ -1,0 +1,9 @@
+.example{
+    background-color: yellow;
+    padding: 12px;
+}
+@media screen and (max-width:600px) {
+    .example{
+        display: none;
+    }
+}

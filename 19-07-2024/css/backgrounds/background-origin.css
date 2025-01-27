@@ -1,0 +1,22 @@
+div{
+    margin: 15px;
+}
+#ex1{
+    border: 9px solid black;
+    background: url('../img_flwr.gif') no-repeat ;
+    padding: 35px;
+    background-origin: content-box;
+}
+
+#ex2{
+    border: 9px solid black;
+    background: url('../img_flwr.gif') no-repeat;
+    padding: 35px;
+    background-origin: border-box;
+}
+#ex3{
+    border: 9px solid black;
+    background: url('../img_flwr.gif') no-repeat;
+    padding: 35px;
+    background-origin: padding-box;
+}

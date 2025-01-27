@@ -1,0 +1,10 @@
+img{
+    float: right;
+}
+.conatiner{
+    float: left;
+}
+.left{
+    width: 300px;
+   float: left;
+}

@@ -1,0 +1,12 @@
+.button{
+    text-decoration-line: none;
+    color: red;
+    background-color: yellow;
+    padding: 12px;
+    border: 1px solid black;
+}
+
+#myDiv a{
+    background-color: green;
+    color: white;
+}

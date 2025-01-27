@@ -1,0 +1,17 @@
+ul.breadcrumb{
+    list-style-type: none;
+    background-color: gainsboro;
+    padding: 8px 16px;
+}
+ul.breadcrumb li{
+    display: inline;
+}
+ul.breadcrumb li a{
+    text-decoration: none;
+    color: green;
+}
+ul.breadcrumb li+li:before{
+    content: "/\00a0";
+    padding: 8px;
+    color: black;
+}

@@ -1,0 +1,25 @@
+.one{
+    width: 5in;
+    height: 20px;
+    background-color: red;
+}
+.two{
+    width: 5mm;
+    height: 20px;
+    background-color: pink;
+}
+.three{
+    width: 5cm;
+    height: 20px;
+    background-color: blue;
+}
+.four{
+    background-color: aqua;
+    width: 5pt;
+    height: 20px;
+}
+.five{
+    width: 5pc;
+    height: 20px;
+    background-color: purple;
+}

@@ -1,0 +1,12 @@
+.btn_Group .button{
+    border: 1px solid green;
+    background-color: #04AA6D;
+    color: white;
+    display: block;
+    padding: 12px 35px;
+    width: 150px;
+    font-size: 16px;
+}
+.btn_Group .button:hover{
+    background-color: #3e8e41;
+}

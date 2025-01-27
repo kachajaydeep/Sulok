@@ -1,0 +1,17 @@
+#grad1{
+    height: 200px;
+    width: 160px;
+    background-image: radial-gradient(circle,red,yellow,green);
+}
+
+#grad2{
+    height: 200px;
+    width: 160px;
+    background-image: radial-gradient(ellipse,red,yellow,green); /* It is a default value in the radial_gradient */
+}
+h1{
+    text-align: center;
+    margin: 0;
+    background-color: rgba(200, 190, 100, 0.3);
+    padding: 25px;
+}

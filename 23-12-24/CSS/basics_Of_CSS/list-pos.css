@@ -1,0 +1,10 @@
+li{
+    border: 1px solid black;
+}
+
+ul.a{
+    list-style-position: inside;
+}
+ul.b{
+    list-style-position: outside;
+}

@@ -1,0 +1,8 @@
+ol{
+    list-style-type: none;
+    counter-reset: details;
+}
+li::before{
+    counter-increment: details;
+    content: counters(details, '.',decimal);
+}

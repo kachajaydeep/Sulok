@@ -1,0 +1,15 @@
+#round1{
+    border: 10px solid transparent;
+    padding: 10px;
+    border-image: url('https://www.w3schools.com/css/border.png') 50 round;
+}
+#round2{
+    border: 10px solid transparent;
+    padding: 10px;
+    border-image: url('https://www.w3schools.com/css/border.png') 20% round;
+}
+#round3{
+    border: 10px solid transparent;
+    padding: 10px;
+    border-image: url('https://www.w3schools.com/css/border.png') 30% round;
+}

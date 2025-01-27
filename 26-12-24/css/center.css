@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    background-color: red;
+}
+.container > div {
+    background-color: #fff;
+    line-height: 75px;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+}
+.container1{
+    justify-content: center;
+}
+.container2{
+    height: 200px;
+    align-items: center;
+}

@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+    height: 200px;
+    align-items: baseline;
+    background-color: red;
+    align-items: stretch;
+}
+.container > div{
+    background-color: white;
+    width: 100px;
+    line-height: 75px;
+    margin: 10px;
+    text-align: center;
+}
